@@ -15,25 +15,12 @@ curl -sfL https://raw.githubusercontent.com/redhat-et/microshift/main/install.sh
 watch -n 5 kubectl get all -A --context microshift
 ```
 
-
 ### Optional: Install oc-cli
 ```
 curl -OL https://raw.githubusercontent.com/tosin2013/openshift-4-deployment-notes/master/pre-steps/configure-openshift-packages.sh
 chmod +x configure-openshift-packages.sh
 ./configure-openshift-packages.sh -i
 ```
-
-### Optional: Install helm 
-```
-$ curl -fsSL -o get_helm.sh https://raw.githubusercontent.com/helm/helm/master/scripts/get-helm-3
-$ chmod 700 get_helm.sh
-$ ./get_helm.sh
-```
-**Change kubeconfig to run helm charts**
-```
- chmod go-r ~/.kube/config
-```
-
 
 ## Links:
 https://github.com/redhat-et/microshift

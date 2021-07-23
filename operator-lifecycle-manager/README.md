@@ -3,6 +3,7 @@
 The Operator Framework is an open source toolkit to manage Kubernetes native applications, called Operators, in an effective, automated, and scalable way.
 
 ## Install command
+[operator-lifecycle-manager Releases](https://github.com/operator-framework/operator-lifecycle-manager/releases)
 ```
 ./operator-lifecycle-manager-install.sh v0.18.2 https://github.com/operator-framework/operator-lifecycle-manager/releases/download
 ```
