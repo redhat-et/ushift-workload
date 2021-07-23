@@ -1,4 +1,4 @@
-# Install postgres on microshift
+# Install Postgres on microshift
 
 
 ## Install helm 
@@ -13,7 +13,7 @@ $ ./get_helm.sh
 $ chmod go-r ~/.kube/config
 ```
 ## Configure local storage 
-* [Local Persistent Volumes]()
+* [Local Persistent Volumes](../local-storage)
 
 ## Start postgres install 
 [postgres-operator Releases](https://github.com/CrunchyData/postgres-operator/releases)
